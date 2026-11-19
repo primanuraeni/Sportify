@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Detail Lapangan - Sportify</title><link rel="stylesheet" href="../css/style.css"></head>
+<body>
+    
+    <header class="site-header">
+<a class="brand" href="../index.html">Sportify</a>
+<nav class="nav">
+    <a href="../index.html" class="">Beranda</a>
+    <a href="daftar-lapangan.html" class="active">Lapangan</a>
+    <a href="pesanan-aktif.html" class="">Pesanan</a>
+</nav>
+<div class="header-spacer"></div>
+<a href="daftar-lapangan.html" aria-label="Cari">
+    <img class="header-icon" src="../assets/icons/search.png" alt="Cari"></a>
+    <a href="login.html" aria-label="Akun">
+        <img class="header-icon" src="../assets/icons/user.png" alt="Akun"></a>
+</header>
+
+<main class="page">
+    <section class="detail-top">
+        <div>
+            <img class="gallery-main" src="../assets/images/futsal merdeka.jpg" alt="Foto Futsal Merdeka">
+            <div class="gallery-thumbs">
+                <img src="../assets/images/kantin.jpg" alt="Foto lapangan 1">
+                <img src="../assets/images/toilet.jpg" alt="Foto lapangan 2">
+                <img src="../assets/images/wifi.jpg" alt="Foto lapangan 3">
+            </div>
+        </div>
+<div class="detail-info">
+    <a class="btn back-btn warna-teks-putih " href="daftar-lapangan.html">Kembali</a>
+    <h1>Futsal Merdeka</h1>
+    <p class="address">
+        <img src="../assets/icons/google-maps.png" alt="Lokasi">Jl. Melati No 12</p>
+        <p>
+            <span class="star">★</span> 4.8</p>
+            <span class="tag">Futsal</span>
+            <p style="font-size:32px">Rp 70.000/Jam</p>
+        </div>
+    </section>
+<section class="detail-meta">
+    <div>
+        <h2>Deskripsi</h2>
+        <p class="description">Lapangan futsal yang nyaman dan bersih, cocok untuk bermain bersama teman, latihan, maupun pertandingan. Tersedia berbagai pilihan waktu pemesanan dengan harga terjangkau.</p>
+    </div>
+    <div>
+        <h2>Fasilitas</h2>
+        <ul class="facilities">
+            <li>Toilet</li>
+            <li>Tempat Parkir</li>
+            <li>Kantin</li>
+            <li>Wi-fi</li>
+        </ul>
+    </div>
+</section>
+<form action="ringkasan-pesanan.html">
+    <section class="booking-controls">
+        <div>
+            <label for="tanggal">Pilih Tanggal</label>
+            <input id="tanggal" name="tanggal" type="date" required value="2026-10-25">
+        </div>
+        <div class="time-field">
+                <label for="mulai">Pilih Waktu</label>
+
+            <div class="time-select">
+                    <select id="mulai" name="mulai" required>
+                        <option value="08:00">08.00</option>
+                        <option value="09:00">09.00</option>
+                        <option value="10:00">10.00</option>
+                        <option value="11:00">11.00</option>
+                        <option value="12:00">12.00</option>
+                        <option value="13:00">13.00</option>
+                        <option value="14:00">14.00</option>
+                        <option value="15:00">15.00</option>
+                        <option value="16:00">16.00</option>
+                        <option value="17:00">17.00</option>
+                        <option value="18:00">18.00</option>
+                        <option value="19:00">19.00</option>
+                        <option value="20:00">20.00</option>
+                    </select>
+
+                    <span>-</span>
+
+                    <select id="selesai" name="selesai" required>
+                        <option value="09:00">09.00</option>
+                        <option value="10:00">10.00</option>
+                        <option value="11:00">11.00</option>
+                        <option value="12:00">12.00</option>
+                        <option value="13:00">13.00</option>
+                        <option value="14:00">14.00</option>
+                        <option value="15:00">15.00</option>
+                        <option value="16:00">16.00</option>
+                        <option value="17:00">17.00</option>
+                        <option value="18:00">18.00</option>
+                        <option value="19:00">19.00</option>
+                        <option value="20:00">20.00</option>
+                        <option value="21:00">21.00</option>
+                    </select>
+                </div>
+            </div>
+    </section>
+    <button class="wide-btn" type="submit">Pesan Sekarang</button>
+</form>
+</main>
+</body>
+</html>

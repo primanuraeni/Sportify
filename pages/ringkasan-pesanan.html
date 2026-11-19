@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konfirmasi Pesanan | Sportify</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="site-header">
+        <a href="../index.html" class="brand">Sportify</a>
+
+        <nav class="nav">
+            <a href="../index.html">Beranda</a>
+            <a href="daftar-lapangan.html">Lapangan</a>
+            <a href="pesanan-aktif.html">Pesanan</a>
+        </nav>
+
+        <div class="header-spacer"></div>
+<a href="daftar-lapangan.html" aria-label="Cari">
+    <img class="header-icon" src="../assets/icons/search.png" alt="Cari"></a>
+
+    <a href="login.html" aria-label="Akun">
+         <img class="header-icon" src="../assets/icons/user.png" alt="Akun"></a>
+    </header>
+
+    <!-- Konten utama -->
+    <main class="konfirmasi-container">
+
+        <div class="page-heading">
+            <h1>Konfirmasi Pesanan</h1>
+            <a href="detail lapangan futsal merdeka.html" class="btn-kembali btn warna-teks-putih">Kembali</a>
+        </div>
+
+        <div class="konfirmasi-content">
+
+            <!-- Detail Pesanan -->
+            <section class="detail-pesanan">
+                <h2>Detail Pesanan</h2>
+
+                <div class="detail-lapangan">
+                    <img
+                        src="../assets/images/futsal merdeka.jpg"
+                        alt="Lapangan Futsal Merdeka"
+                        class="gambar-lapangan"
+                    >
+
+                    <div class="info-lapangan">
+                        <h3>Futsal Merdeka</h3>
+                        <p> 5 November 2025 | 08.00 - 09.00</p>
+                        <strong>Rp 70.000</strong>
+                    </div>
+                </div>
+
+                <div class="total-pembayaran">
+                    <span>Total Pembayaran</span>
+                    <strong>Rp 70.000</strong>
+                </div>
+            </section>
+
+            <section class="form-pemesanan">
+                <h2>Data Pemesanan</h2>
+
+                <form action="pesanan-aktif.html" method="get">
+
+                    <div class="form-group">
+                        <label for="nama">Nama Pemesan</label>
+                        <input
+                            type="text"
+                            id="nama"
+                            name="nama"
+                            placeholder="Masukkan nama lengkap"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="telepon">Nomor Telepon</label>
+                        <input
+                            type="tel"
+                            id="telepon"
+                            name="telepon"
+                            placeholder="Masukkan nomor telepon anda"
+                            required
+                        >
+                    </div>
+
+                    <h3 class="judul-metode">Metode Pembayaran</h3>
+
+                    <div class="metode-pembayaran">
+                        <label>
+                            <input
+                                type="radio"
+                                name="metode"
+                                value="Transfer Bank"
+                                checked
+                            >
+                            <span>Transfer Bank</span>
+                        </label>
+
+                        <label>
+                            <input
+                                type="radio"
+                                name="metode"
+                                value="E-Wallet"
+                            >
+                            <span>E-Wallet</span>
+                        </label>
+
+                        <label>
+                            <input
+                                type="radio"
+                                name="metode"
+                                value="Bayar Di Tempat"
+                            >
+                            <span>Bayar Di Tempat</span>
+                        </label>
+                    </div>
+
+                    <button href="pesanan-aktif.html" type="submit" class="btn-konfirmasi btn warna-teks-putih">
+                        Konfirmasi Pembayaran
+                    </button>
+
+                </form>
+            </section>
+
+        </div>
+    </main>
+
+</body>
+</html>
